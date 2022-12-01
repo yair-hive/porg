@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "הורד אשכולות",
+    "version": "1.0",
+    "description": "מאפשר הורדת אשכולות שלמים מהאתר פרוג לקובץ PDF",
+    "content_scripts": [
+        {
+          "js": ["scripts/main.js"],
+          "matches": ["https://www.prog.co.il/*"]
+        }
+    ]
+}
